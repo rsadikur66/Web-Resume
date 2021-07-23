@@ -1,0 +1,255 @@
+body{
+    background: #e4e4e4d4;
+    font-family: 'Courier New', Courier, monospace
+}
+html {
+    scroll-behavior: smooth;
+  }
+  section{
+      padding-top: 5%;
+  }
+.navigation-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: cadetblue;
+    width: 100%;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navigation-menu li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.5em;
+    color: #ffffff
+}
+.navigation-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation-menu li a:hover{
+    
+    cursor: pointer;
+    text-decoration: underline;
+    color: coral;
+}
+.cover-image, .cover-image container {
+    position: relative;
+}
+#coverimage{
+    width: 100%;
+    height: 500px;
+
+}
+#profilePic{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+
+}
+.cover-image h2{
+    font-size: 3em;
+    top: 50%;
+    left:35%;
+    color:rgb(255 61 0);
+    position: absolute;
+}
+.cover-image h3{
+    font-size: 2em;
+    top: 65%;
+    left:40%;
+    color:#ffffff;
+    position: absolute;
+}
+#btnDownloadCV{
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+    background-color: #3ec054;
+    border: none;
+    color: #0e0c0c;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    opacity: 0.5;
+    transition: 0.3s;
+    border-radius: 3em;
+    font-weight: bolder;
+}
+#btnDownloadCV:hover {
+    opacity : 1;
+    cursor  : pointer;
+}
+#linkedin-icon{
+    top: 93%;
+    right: 51%;
+}
+ #facebook-icon{
+    top: 93%;
+    right: 48%;
+}
+#twitter-icon{
+    top: 93%;
+    right: 45%;
+}
+.social-accounts a{
+    position: absolute;
+}
+.personal-information{
+    width: 100%;
+    float: left;
+}
+.personal-information .container{
+    width: 96%;
+    float: left;
+    background-color:#ffffff;
+    margin: 2%;
+    font-size: 22px;
+border-radius: 20px;
+}
+.about-part{
+    float: left;
+    width: 56%;
+    margin-left: 2%;
+}
+.basic-info{
+    float: left;
+    width: 42%;
+    line-height: 29pt;
+}
+.basic-info tr td:first-child{
+    font-weight: bold;
+
+}
+.basic-info table td{
+    padding-right: 100px;
+}
+.professional-skills{
+    width: 100%;
+    float: left;
+}
+.professional-skills .container,.work-experience .container{
+    width: 96%;
+    float: left;
+    background-color: #ffffff;
+    margin: 2%;
+    border-radius: 20px;
+    /* font-size: 22px; */
+}
+.bar-contain{
+    width: 80%;
+    /* background-color:#dddd; */
+    float: right;
+}
+
+
+.html,.css,.javascript,.mvc,.jquery,.angularjs{
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.html{
+    width: 90%;
+    background-color: #7d90ea ;
+    animation-name: htmlkey;
+    animation-duration: 3s;
+    margin: 30px;
+}
+.css,.jquery,.angularjs{
+    width: 80%;
+    background-color: #7d90ea ;
+    animation-name: csskey;
+    animation-duration: 3s;
+    margin: 30px;
+}
+.javascript{
+    width: 85%;
+    background-color: #7d90ea ;
+    animation-name: javascriptKey;
+    animation-duration: 3s;
+    margin: 30px;
+}
+.mvc{
+    width: 85%;
+    background-color: #7d90ea ;
+    animation-name: mvcKey;
+    animation-duration: 3s;
+    margin: 30px;
+}
+.html,.css,.javascript,.mvc,.jquery,.angularjs{
+    height: 14px;
+}
+.rating{
+    width:50%;
+    float: left;
+}
+.bar-title{
+    width: 20%;
+    /* background: aquamarine; */
+    display: inline-block;
+    /* float: left; */
+}
+.bar-title h3{
+    color: #04AA6D;
+    margin-left: 30%;
+    font-size: 17px;
+    margin-top: 17%;
+}
+.expInfo{
+    width: 98%;
+    margin: 1%;
+    float: left;
+}
+.expTitle{
+    background-color: #04AA6D;
+    width: 30%;
+    float: left;
+    height: 20vh;
+}
+.expDetails{
+    background-color: #94c4e0;
+    width: 70%;
+    float: left;
+    height: 20vh;
+    overflow-y: scroll;
+}
+.expTitle>h2, .expTitle>h3{
+    text-align: center;
+    font-size: 2em;
+}
+.expDetails>h3{
+text-align: center;
+margin: 3px;
+font-size: 1.5em;
+}
+.expDetails>p{
+    margin: 1%;
+    font-size: 1.5em;
+ 
+}
+@keyframes htmlkey {
+    from {width:0%}
+    to {width:90%}
+  }
+  @keyframes csskey {
+    from {width:0%}
+    to {width:80%}
+  }
+  @keyframes javascriptKey {
+    from {width:0%}
+    to {width:85%}
+  }
+  @keyframes mvcKey {
+    from {width:0%}
+    to {width:85%}
+  }

@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../CSS/Style.css">
 </head>
 
-<body>
+<body  onload="myFunc()">
+        <div class="loader"></div> 
     <section class="resume-section">
         <header>
             <div class="container">
@@ -69,7 +70,7 @@
                         <td>Duration</td>
                         <td>:</td>
                         <td>April 2017 to Present.</td>
-                    </tr>
+                    </tr>                    
                 </table>
             </div>
         </section>        
@@ -86,6 +87,14 @@
             </div>
         </section>
     </section>
+
+
+    <script type="text/javascript">
+        var ddd = document.getElementsByClassName('loader');
+        function myFunc(){
+         ddd[0].style.display = "none";
+         }
+     </script>
 </body>
 
 </html>

