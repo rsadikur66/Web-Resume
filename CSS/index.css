@@ -136,7 +136,7 @@ border-radius: 20px;
     width: 100%;
     float: left;
 }
-.professional-skills .container,.work-experience .container{
+.professional-skills .container,.work-experience .container,.contact .container{
     width: 96%;
     float: left;
     background-color: #ffffff;
@@ -237,6 +237,36 @@ font-size: 1.5em;
     margin: 1%;
     font-size: 1.5em;
  
+}
+.contactInformation{
+    width: 98%;
+    margin: 1%;
+    float: left;
+}
+.contactForm{
+    width: 50%;
+    float: left;
+    height: 20vh;
+    
+}
+.addressDetails{
+    width: 50%;
+    float: left;
+    height: 20vh;
+    background-color: red;
+}
+table{
+    width: 100%;
+    position: relative;
+    left: 5%;
+}
+input[type=text]{
+    border: 2px solid gray;
+    border-radius: 20px;
+    height: 4vh;
+    width: 60%;    
+    outline: none;
+    text-align: center;
 }
 @keyframes htmlkey {
     from {width:0%}
